@@ -11,6 +11,7 @@
 		E71B16122A37C4710003BB0D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E71B16112A37C4710003BB0D /* ContentView.swift */; };
 		E71B16142A37C4720003BB0D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E71B16132A37C4710003BB0D /* Assets.xcassets */; };
 		E71B16172A37C4720003BB0D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E71B16162A37C4720003BB0D /* Preview Assets.xcassets */; };
+		E71B161E2A37C5BD0003BB0D /* ChooseChartsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E71B161D2A37C5BD0003BB0D /* ChooseChartsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		E71B16112A37C4710003BB0D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E71B16132A37C4710003BB0D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E71B16162A37C4720003BB0D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E71B161D2A37C5BD0003BB0D /* ChooseChartsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseChartsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				E71B160F2A37C4710003BB0D /* CryptoChartsApp.swift */,
 				E71B16112A37C4710003BB0D /* ContentView.swift */,
+				E71B161D2A37C5BD0003BB0D /* ChooseChartsView.swift */,
 				E71B16132A37C4710003BB0D /* Assets.xcassets */,
 				E71B16152A37C4720003BB0D /* Preview Content */,
 			);
@@ -138,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E71B16122A37C4710003BB0D /* ContentView.swift in Sources */,
+				E71B161E2A37C5BD0003BB0D /* ChooseChartsView.swift in Sources */,
 				E71B16102A37C4710003BB0D /* CryptoChartsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
