@@ -8,17 +8,23 @@
 import SwiftUI
 
 struct ContentView: View {
+     
+    @State private var isPresented: Bool  = false
+    
     var body: some View {
         NavigationView {
             VStack {
-                NavigationLink {
-                    ChooseChartsView()
+                Button {
+                    isPresented.toggle()
                 } label: {
                     Text("Check charts")
                     Image(systemName: "chart.bar")
                 }
 
             }
+            .sheet(isPresented: $isPresented, content: {
+                ChooseChartsView()
+            })
             .navigationTitle("Crypto Courses")
             .padding()
             .background(Color(.brown))
