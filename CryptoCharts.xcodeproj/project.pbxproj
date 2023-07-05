@@ -21,6 +21,7 @@
 		E71B16132A37C4710003BB0D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E71B16162A37C4720003BB0D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		E71B161D2A37C5BD0003BB0D /* ChooseChartsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseChartsView.swift; sourceTree = "<group>"; };
+		E7559EB52A4E1A04008C1159 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +54,7 @@
 		E71B160E2A37C4710003BB0D /* CryptoCharts */ = {
 			isa = PBXGroup;
 			children = (
+				E7559EB52A4E1A04008C1159 /* Info.plist */,
 				E71B160F2A37C4710003BB0D /* CryptoChartsApp.swift */,
 				E71B16112A37C4710003BB0D /* ContentView.swift */,
 				E71B161D2A37C5BD0003BB0D /* ChooseChartsView.swift */,
@@ -273,6 +275,8 @@
 				DEVELOPMENT_ASSET_PATHS = "\"CryptoCharts/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CryptoCharts/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = A;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -301,6 +305,8 @@
 				DEVELOPMENT_ASSET_PATHS = "\"CryptoCharts/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CryptoCharts/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = A;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
